@@ -18,13 +18,57 @@
         android:textAllCaps="false" />
     <Button
         android:id="@+id/bt_three"
-        android:text="三个按钮的Dialog"
+        android:text="列表Dialog"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:textAllCaps="false" />
+    <Button
+        android:id="@+id/bt_four"
+        android:text="单选Dialog"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+   <Button
+       android:id="@+id/bt_five"
+       android:text="多选Dialog"
+       android:textAllCaps="false"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bt_six"
+        android:text="等待Dialog"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bt_seven"
+        android:text="进度条Dialog"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bt_eight"
+        android:text="编辑Dialog"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bt_nine"
+        android:text="自定义Dialog"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
-
-
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
 
 
 </LinearLayout>
